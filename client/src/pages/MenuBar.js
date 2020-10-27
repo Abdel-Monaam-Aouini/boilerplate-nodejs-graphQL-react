@@ -1,47 +1,33 @@
-import React, { Component } from 'react'
-import { Menu, Segment } from 'semantic-ui-react'
+import React from "react";
+import { Menu } from "semantic-ui-react";
 
 function MenuBar() {
-  const [activeItem, setActiveITem] = useState('');
+  const [activeItem, setActiveITem] = useState("")
+  const handleItemClick = (e, { name }) => setActiveITem(name)
 
-  const handleItemClick = (e, { name }) => setActiveITem(name);
+  return (
+    <Menu pointing secondary>
+      <Menu.Item
+        name="home"
+        active={activeItem === "home"}
+        onClick={handleItemClick}
+      />
 
-  render() {
-    const { activeItem } = this.state
+      <Menu.Menu position="right">
+        <Menu.Item
+          name="register"
+          active={activeItem === "register"}
+          onClick={handleItemClick}
+        />
+        <Menu.Item
+          name="login"
+          active={activeItem === "login"}
+          onClick={this.handleItemClick}
+        />
+      </Menu.Menu>
+    </Menu>
+  )
 
-    return (
-      <div>
-        <Menu pointing secondary>
-          <Menu.Item
-            name='home'
-            active={activeItem === 'home'}
-            onClick={this.handleItemClick}
-          />
-          <Menu.Item
-            name='messages'
-            active={activeItem === 'messages'}
-            onClick={this.handleItemClick}
-          />
-          <Menu.Item
-            name='friends'
-            active={activeItem === 'friends'}
-            onClick={this.handleItemClick}
-          />
-          <Menu.Menu position='right'>
-            <Menu.Item
-              name='logout'
-              active={activeItem === 'logout'}
-              onClick={this.handleItemClick}
-            />
-          </Menu.Menu>
-        </Menu>
-
-        <Segment>
-          <img src='/images/wireframe/media-paragraph.png' />
-        </Segment>
-      </div>
-    )
-  }
 }
 
 export default MenuBar;
