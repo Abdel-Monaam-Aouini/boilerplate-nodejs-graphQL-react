@@ -106,7 +106,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.23",
@@ -572,8 +573,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -582,8 +582,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1462,9 +1461,9 @@
             "backupPath": "/home/monaam/Desktop/app-graphQL/root/.vscode/Backups/15ee9259b6b3f162944a5bd3eadd8ef0",
             "uiState": {
                 "mode": 0,
-                "x": 171,
-                "y": 64,
-                "width": 1024,
+                "x": 710,
+                "y": 57,
+                "width": 1294,
                 "height": 704
             }
         },

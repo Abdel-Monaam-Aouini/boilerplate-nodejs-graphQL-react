@@ -1,3 +1,11 @@
 [2020-10-27 11:48:07.945] [sharedprocess] [info] main {"machineId":"1ad80ccdda8a5924301df1cc6ab1653bb97dff55df7e9400b382e68e0241fa9a","windowId":2}
 [2020-10-27 11:48:07.985] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/monaam/Desktop/app-graphQL/root/.vscode/User/snippets'
 [2020-10-27 11:48:47.956] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-10-27 12:13:46.527] [sharedprocess] [info] Installing extension: isudox.vscode-jetbrains-keybindings
+[2020-10-27 12:13:47.544] [sharedprocess] [info] Downloaded extension: isudox.vscode-jetbrains-keybindings undefined
+[2020-10-27 12:13:47.578] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.isudox.vscode-jetbrains-keybindings-0.1.9: isudox.vscode-jetbrains-keybindings
+[2020-10-27 12:13:47.579] [sharedprocess] [info] Renamed to /root/.vscode/extensions/isudox.vscode-jetbrains-keybindings-0.1.9
+[2020-10-27 12:13:47.580] [sharedprocess] [info] Installation completed. isudox.vscode-jetbrains-keybindings
+[2020-10-27 12:13:47.593] [sharedprocess] [info] Extensions installed successfully: isudox.vscode-jetbrains-keybindings
+[2020-10-27 12:15:26.894] [sharedprocess] [info] Uninstalling extension: isudox.vscode-jetbrains-keybindings
+[2020-10-27 12:15:26.907] [sharedprocess] [info] Successfully uninstalled extension: isudox.vscode-jetbrains-keybindings

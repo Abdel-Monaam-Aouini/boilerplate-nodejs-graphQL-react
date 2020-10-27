@@ -1,0 +1,197 @@
+["INFO" - 11:54:20 AM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 11:54:20 AM] Extension Version: 5.7.1.
+["INFO" - 11:54:20 AM] Enabling prettier for languages: ansible, css, graphql, home-assistant, html, javascript, javascriptreact, json, json5, jsonc, less, markdown, mdx, mongo, postcss, scss, typescript, typescriptreact, vue, yaml
+["INFO" - 11:54:20 AM] Enabling prettier for file extensions: .JSON-tmLanguage, ._js, .avsc, .bones, .cjs, .component.html, .css, .es, .es6, .frag, .geojson, .gltf, .gql, .graphql, .graphqls, .gs, .har, .htm, .html, .html.hl, .ice, .inc, .jake, .js, .js.flow, .jsb, .jscad, .jsfl, .jsm, .json, .json5, .jsonc, .jsonl, .jss, .jsx, .less, .markdown, .mcmeta, .md, .mdown, .mdwn, .mdx, .mir, .mjml, .mjs, .mkd, .mkdn, .mkdown, .njs, .pac, .pcss, .postcss, .reek, .ronn, .rviz, .scss, .sjs, .ssjs, .st, .sublime-build, .sublime-commands, .sublime-completions, .sublime-keymap, .sublime-macro, .sublime-menu, .sublime-mousemap, .sublime-project, .sublime-settings, .sublime-syntax, .sublime-theme, .sublime-workspace, .sublime_metrics, .sublime_session, .syntax, .tfstate, .tfstate.backup, .topojson, .ts, .tsx, .vue, .webapp, .webmanifest, .workbook, .xht, .xhtml, .xsjs, .xsjslib, .yaml, .yaml-tmlanguage, .yaml.sed, .yml, .yml.mysql, .yy, .yyp
+["INFO" - 11:54:20 AM] Enabling prettier for range supported languages: graphql, javascript, javascriptreact, json, typescript, typescriptreact
+["INFO" - 12:01:04 PM] Formatting /home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js
+["INFO" - 12:01:04 PM] Using ignore file (if present) at /home/monaam/Desktop/app-graphQL/.prettierignore
+["INFO" - 12:01:04 PM] Using bundled version of prettier.
+["INFO" - 12:01:04 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:01:04 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:01:04 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js",
+  "parser": "babel"
+}
+["INFO" - 12:01:04 PM] Formatting completed in 134.867728ms.
+["INFO" - 12:01:08 PM] Formatting /home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js
+["INFO" - 12:01:08 PM] Using ignore file (if present) at /home/monaam/Desktop/app-graphQL/.prettierignore
+["INFO" - 12:01:08 PM] Using bundled version of prettier.
+["INFO" - 12:01:08 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:01:08 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:01:08 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js",
+  "parser": "babel"
+}
+["INFO" - 12:01:08 PM] Formatting completed in 34.500669ms.
+["INFO" - 12:03:11 PM] Formatting /home/monaam/Desktop/app-graphQL/client/src/App.js
+["INFO" - 12:03:11 PM] Using ignore file (if present) at /home/monaam/Desktop/app-graphQL/.prettierignore
+["INFO" - 12:03:11 PM] Using bundled version of prettier.
+["INFO" - 12:03:11 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:03:11 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:03:11 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/monaam/Desktop/app-graphQL/client/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 12:03:11 PM] Formatting completed in 28.693047ms.
+["INFO" - 12:07:05 PM] Formatting /home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js
+["INFO" - 12:07:05 PM] Using ignore file (if present) at /home/monaam/Desktop/app-graphQL/.prettierignore
+["INFO" - 12:07:05 PM] Using bundled version of prettier.
+["INFO" - 12:07:05 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:07:05 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:07:05 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js",
+  "parser": "babel"
+}
+["INFO" - 12:07:05 PM] Formatting completed in 30.447893ms.
+["INFO" - 12:10:15 PM] Formatting /home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js
+["INFO" - 12:10:15 PM] Using ignore file (if present) at /home/monaam/Desktop/app-graphQL/.prettierignore
+["INFO" - 12:10:15 PM] Using bundled version of prettier.
+["INFO" - 12:10:15 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:10:15 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:10:15 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js",
+  "parser": "babel"
+}
+["INFO" - 12:10:15 PM] Formatting completed in 29.479431ms.
+["INFO" - 12:13:12 PM] Formatting /home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js
+["INFO" - 12:13:12 PM] Using ignore file (if present) at /home/monaam/Desktop/app-graphQL/.prettierignore
+["INFO" - 12:13:12 PM] Using bundled version of prettier.
+["INFO" - 12:13:12 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:13:12 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:13:12 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/monaam/Desktop/app-graphQL/client/src/pages/MenuBar.js",
+  "parser": "babel"
+}
+["INFO" - 12:13:12 PM] Formatting completed in 33.640885ms.
