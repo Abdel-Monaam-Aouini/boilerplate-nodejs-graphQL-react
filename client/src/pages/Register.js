@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import { Button, Form } from "semantic-ui-react";
 import { useMutation, gql } from "@apollo/client";
+import { useForm } from "../utilites/hooks";
 
 function Register(props) {
-  const [errors, setErrors] = useState();
-  const [values, setValues] = useState({
+  const [errors, setErrors] = useState("");
+
+  const {onSubmit,onChange,values} = useForm(registerUser, {
     username: "",
     email: "",
     password: "",
     confirmPassword: "",
-  });
-
-  const onChange = (event) => {
-    setValues({ ...values, [event.target.name]: event.target.value });
-  };
+  })
 
   const [addUser, { loading }] = useMutation(REGISTER_USER, {
-    update(proxy, result) {
+    update(_, result) {
       console.log(result);
+      props.history.push("/");
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -25,10 +24,9 @@ function Register(props) {
     variables: values,
   });
 
-  const onSubmit = (e) => {
-    e.preventDefault();
+  function registerUser(){
     addUser();
-  };
+  }
 
   return (
     <div>
@@ -41,6 +39,7 @@ function Register(props) {
           name="username"
           value={values.username}
           onChange={onChange}
+          error={errors.username ? true : false}
         />
         <Form.Input
           label="Email"
@@ -49,6 +48,7 @@ function Register(props) {
           name="email"
           value={values.email}
           onChange={onChange}
+          error={errors.email ? true : false}
         />
         <Form.Input
           type="password"
@@ -57,6 +57,7 @@ function Register(props) {
           name="password"
           value={values.password}
           onChange={onChange}
+          error={errors.password ? true : false}
         />
         <Form.Input
           label="Confirm Password"
@@ -65,6 +66,7 @@ function Register(props) {
           name="confirmPassword"
           value={values.confirmPassword}
           onChange={onChange}
+          error={errors.confirmPassword ? true : false}
         />
         <Button type="submit" primary>
           Register

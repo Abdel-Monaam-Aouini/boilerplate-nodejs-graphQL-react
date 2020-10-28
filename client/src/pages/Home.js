@@ -4,7 +4,7 @@ import { Grid } from "semantic-ui-react";
 import PostCard from "./PostCard";
 
 function Home() {
-  const { loading, error, data } = useQuery(FETCH_POSTS_QUERY);
+  const { loading, data } = useQuery(FETCH_POSTS_QUERY);
 
   return (
     <Grid columns={3} divided>
