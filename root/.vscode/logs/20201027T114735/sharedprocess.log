@@ -1,4 +1,0 @@
-[2020-10-27 11:47:39.353] [sharedprocess] [info] main {"machineId":"1ad80ccdda8a5924301df1cc6ab1653bb97dff55df7e9400b382e68e0241fa9a","windowId":2}
-[2020-10-27 11:47:39.392] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/monaam/Desktop/app-graphQL/root/.vscode/User/snippets'
-[2020-10-27 11:47:39.490] [sharedprocess] [info] Deleted from disk equimper.react-native-react-redux /root/.vscode/extensions/equimper.react-native-react-redux-2.0.4
-[2020-10-27 11:47:39.494] [sharedprocess] [info] Deleted from disk esbenp.prettier-vscode /root/.vscode/extensions/esbenp.prettier-vscode-5.6.0
