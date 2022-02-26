@@ -9,7 +9,7 @@ const {
 } = require("../../utilites/validator");
 
 function generateToken(user) {
-  jwt.sign(
+  return jwt.sign(
     {
       id: user.id,
       email: user.email,
