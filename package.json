@@ -1,5 +1,5 @@
 {
-  "name": "app-graphQL",
+  "name": "Boilerplate-Nodejs-graphQL-React",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "apollo-server": "^2.18.2",
     "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
     "graphql": "^15.3.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.10",

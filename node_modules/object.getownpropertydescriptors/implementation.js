@@ -1,10 +1,10 @@
 'use strict';
 
-var CreateDataProperty = require('es-abstract/2019/CreateDataProperty');
-var IsCallable = require('es-abstract/2019/IsCallable');
-var RequireObjectCoercible = require('es-abstract/2019/RequireObjectCoercible');
-var ToObject = require('es-abstract/2019/ToObject');
-var callBound = require('es-abstract/helpers/callBound');
+var CreateDataProperty = require('es-abstract/2021/CreateDataProperty');
+var IsCallable = require('es-abstract/2021/IsCallable');
+var RequireObjectCoercible = require('es-abstract/2021/RequireObjectCoercible');
+var ToObject = require('es-abstract/2021/ToObject');
+var callBound = require('call-bind/callBound');
 
 var $gOPD = Object.getOwnPropertyDescriptor;
 var $getOwnNames = Object.getOwnPropertyNames;

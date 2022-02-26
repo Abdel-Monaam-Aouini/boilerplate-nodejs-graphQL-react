@@ -17,7 +17,7 @@ export class TraceTreeBuilder {
   private nodes = new Map<string, Trace.Node>([
     [responsePathAsString(), this.rootNode],
   ]);
-  private rewriteError?: (err: GraphQLError) => GraphQLError | null;
+  private readonly rewriteError?: (err: GraphQLError) => GraphQLError | null;
 
   public constructor(options: {
     logger?: Logger;
@@ -261,7 +261,7 @@ function errorToProtobufError(error: GraphQLError): Trace.Error {
 }
 
 // Converts a JS Date into a Timestamp.
-function dateToProtoTimestamp(date: Date): google.protobuf.Timestamp {
+export function dateToProtoTimestamp(date: Date): google.protobuf.Timestamp {
   const totalMillis = +date;
   const millis = totalMillis % 1000;
   return new google.protobuf.Timestamp({
