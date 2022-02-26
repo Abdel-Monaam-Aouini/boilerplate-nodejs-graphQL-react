@@ -2,8 +2,18 @@
 
 #
 after cloning the repository
-# server => Run :
+# server
 
-`cd server && yarn`
-`docker-compose up --build -d mongodb`
-`yarn start`
+Run :
+
+```sh
+    cd server && yarn
+```
+
+```sh
+    docker-compose up --build -d mongodb
+```
+
+```sh
+    yarn start
+```
