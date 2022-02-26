@@ -1,6 +1,5 @@
 import React from "react";
-import {Card, Image } from "semantic-ui-react";
-import { moment } from "moment";
+import { Card, Image } from "semantic-ui-react";
 
 function PostCard({
   post: { body, createdAt, id, username, likeCount, commentCount, likes },
@@ -15,7 +14,7 @@ function PostCard({
             src="https://react.semantic-ui.com/images/avatar/large/steve.jpg"
           />
           <Card.Header>{username}</Card.Header>
-          <Card.Meta>{createdAt ? moment(createdAt).fromNow() : ""}</Card.Meta>
+          <Card.Meta>{new Date(createdAt).toLocaleString()}</Card.Meta>
           <Card.Description>{body}</Card.Description>
         </Card.Content>
       </Card>
