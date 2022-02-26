@@ -17,3 +17,15 @@ Run :
 ```sh
     yarn start
 ```
+
+# client
+
+Run :
+
+```sh
+    cd client && yarn
+```
+
+```sh
+    yarn start
+```
