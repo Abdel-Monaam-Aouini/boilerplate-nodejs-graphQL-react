@@ -4,7 +4,7 @@ module.exports = gql`
   type Post {
     id: ID!
     body: String!
-    createdAT: String
+    createdAt: String
     username: String!
   }
   type User {
