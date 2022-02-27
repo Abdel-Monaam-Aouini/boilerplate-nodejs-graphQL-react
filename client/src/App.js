@@ -1,10 +1,7 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "semantic-ui-css/semantic.min.css";
 import { Container } from "semantic-ui-react";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import MenuBar from "./pages/MenuBar";
-import Register from "./pages/Register";
+import { Home, Login, MenuBar, Register } from "./pages";
 
 function App() {
   return (
