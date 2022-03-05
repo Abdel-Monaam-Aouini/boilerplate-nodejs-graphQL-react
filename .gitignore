@@ -2,3 +2,4 @@ node_modules
 *.lock
 .parcel-cache/
 dist/
+server/db

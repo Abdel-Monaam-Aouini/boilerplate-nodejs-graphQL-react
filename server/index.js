@@ -14,6 +14,7 @@ mongoose
   .connect(MONGODB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
+    dbName: "boilerplate",
   })
   .then(() => {
     console.log("MongoDB connected");
