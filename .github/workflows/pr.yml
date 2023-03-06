@@ -37,7 +37,7 @@ jobs:
         run: |
          cd server
          npm ci
-         npm run start
+         npm run start &
   test_client:
     name: Client
     runs-on: ubuntu-latest
