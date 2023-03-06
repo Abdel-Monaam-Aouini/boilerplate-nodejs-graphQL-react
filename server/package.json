@@ -14,7 +14,7 @@
     "bcryptjs": "^2.4.3",
     "graphql": "^15.3.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.10",
+    "mongoose": "^7.0.0",
     "nodemon": "^2.0.6",
     "react-router-dom": "^5.2.0",
     "semantic-ui-css": "^2.4.1",
