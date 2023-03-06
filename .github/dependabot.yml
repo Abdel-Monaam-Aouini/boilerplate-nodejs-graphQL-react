@@ -5,16 +5,16 @@ updates:
     directory: '/client/'
     schedule:
       interval: 'daily'
-    automerged_updates:
-      - match:
-          dependency_type: "all"
-          update_type: "all"
+    commit-message:
+      prefix: dependency
+      prefix-development: dependency
+    open-pull-requests-limit: 99
 
   - package-ecosystem: 'npm'
     directory: '/server/'
     schedule:
       interval: 'daily'
-   automerged_updates:
-      - match:
-          dependency_type: "all"
-          update_type: "all"
+    commit-message:
+      prefix: dependency
+      prefix-development: dependency
+    open-pull-requests-limit: 99
