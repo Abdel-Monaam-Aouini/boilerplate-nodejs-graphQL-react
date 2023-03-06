@@ -52,8 +52,8 @@ jobs:
          npm run preview &
       - name: 🔎 Run tests
         run: |
-        cd client
-        npm run test
+         cd client
+         npm run test
   dependabot_automerge:
     name: Approve and automerge (only dependanbot PRs)
     runs-on: ubuntu-latest
