@@ -2,6 +2,19 @@
 version: 2
 updates:
   - package-ecosystem: 'npm'
-    directory: '/'
+    directory: '/client/'
     schedule:
       interval: 'daily'
+    commit-message:
+      prefix: dependency
+      prefix-development: dependency
+    open-pull-requests-limit: 99
+
+  - package-ecosystem: 'npm'
+    directory: '/server/'
+    schedule:
+      interval: 'daily'
+    commit-message:
+      prefix: dependency
+      prefix-development: dependency
+    open-pull-requests-limit: 99
