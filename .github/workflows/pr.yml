@@ -36,6 +36,7 @@ jobs:
       - name: 👌🏻 Run server
         run: |
          cd server
+         npm ci
          npm run start
   test_client:
     name: Client
