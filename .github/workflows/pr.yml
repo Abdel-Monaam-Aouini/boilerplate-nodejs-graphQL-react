@@ -32,7 +32,7 @@ jobs:
       - name: 👌🏻 Setup and build
         run: cd client && npm ci && npm run build && npm run preview &
       - name: 🔎 Run tests
-        run: npm run test
+        run: cd client && npm run test
   dependabot_automerge:
     name: Approve and automerge (only dependanbot PRs)
     runs-on: ubuntu-latest
