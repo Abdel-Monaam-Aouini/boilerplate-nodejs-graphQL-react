@@ -44,7 +44,7 @@ jobs:
       - name: 👌🏻 Setup and build
         run: |
          cd client
-         npm ci
+         npm i --force
          npm run build
          npm run preview &
       - name: 🔎 Run tests
