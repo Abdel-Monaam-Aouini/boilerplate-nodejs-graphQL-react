@@ -1,58 +1,58 @@
-import React, { createContext, useReducer } from "react";
-import jwtDecode from "jwt-decode";
+import React, { createContext, useReducer } from 'react'
+import jwtDecode from 'jwt-decode'
 
 const initialState = {
-  user: null,
-};
+  user: null
+}
 
-if (localStorage.getItem("AUTH_TOKEN")) {
-  const decodeToken = jwtDecode(localStorage.getItem("AUTH_TOKEN"));
+if (window.localStorage.getItem('AUTH_TOKEN')) {
+  const decodeToken = jwtDecode(window.localStorage.getItem('AUTH_TOKEN'))
   if (decodeToken.exp * 1000 < Date.now()) {
-    localStorage.removeItem("AUTH_TOKEN");
+    window.localStorage.removeItem('AUTH_TOKEN')
   } else {
-    initialState.user = decodeToken;
+    initialState.user = decodeToken
   }
 }
 
 const AuthContext = createContext({
   user: null,
   login: (userLogin) => {},
-  logout: () => {},
-});
+  logout: () => {}
+})
 
-function authReducer(state, action) {
+function authReducer (state, action) {
   switch (action.type) {
-    case "LOGIN":
-      return { ...state, user: action.payload };
-    case "LOGOUT":
-      return { ...state, user: null };
+    case 'LOGIN':
+      return { ...state, user: action.payload }
+    case 'LOGOUT':
+      return { ...state, user: null }
     default:
-      return state;
+      return state
   }
 }
 
-function AuthProvider(props) {
-  const [state, dispatch] = useReducer(authReducer, initialState);
+function AuthProvider (props) {
+  const [state, dispatch] = useReducer(authReducer, initialState)
 
-  function login(userLogin) {
-    localStorage.setItem("AUTH_TOKEN", userLogin.token);
+  function login (userLogin) {
+    window.localStorage.setItem('AUTH_TOKEN', userLogin.token)
     dispatch({
-      type: "LOGIN",
-      payload: userLogin,
-    });
+      type: 'LOGIN',
+      payload: userLogin
+    })
   }
 
-  function logout() {
-    localStorage.removeItem("AUTH_TOKEN");
-    dispatch({ type: "LOGOUT" });
+  function logout () {
+    window.localStorage.removeItem('AUTH_TOKEN')
+    dispatch({ type: 'LOGOUT' })
   }
 
   return (
     <AuthContext.Provider
       value={{ user: state.user, login, logout }}
       {...props}
-    ></AuthContext.Provider>
-  );
+    />
+  )
 }
 
-export { AuthContext, AuthProvider };
+export { AuthContext, AuthProvider }
