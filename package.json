@@ -4,7 +4,7 @@
   "description": "# clone the repository :",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "style": "standard server/**/*.js client/src/**/*.{js,jsx} --fix"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react#readme",
   "devDependencies": {
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "8.0.7",
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/commit-analyzer": "9.0.2",
-    "@semantic-release/release-notes-generator": "10.0.3"
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.7",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "standard": "^17.0.0"
   }
 }

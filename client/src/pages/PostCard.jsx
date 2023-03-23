@@ -1,17 +1,17 @@
-import React from "react";
-import { Card, Image } from "semantic-ui-react";
+import React from 'react'
+import { Card, Image } from 'semantic-ui-react'
 
-function PostCard({
-  post: { body, createdAt, id, username, likeCount, commentCount, likes },
+function PostCard ({
+  post: { body, createdAt, id, username, likeCount, commentCount, likes }
 }) {
   return (
     <Card.Group>
       <Card>
         <Card.Content>
           <Image
-            floated="right"
-            size="mini"
-            src="https://react.semantic-ui.com/images/avatar/large/steve.jpg"
+            floated='right'
+            size='mini'
+            src='https://react.semantic-ui.com/images/avatar/large/steve.jpg'
           />
           <Card.Header>{username}</Card.Header>
           <Card.Meta>{new Date(createdAt).toLocaleString()}</Card.Meta>
@@ -19,7 +19,7 @@ function PostCard({
         </Card.Content>
       </Card>
     </Card.Group>
-  );
+  )
 }
 
-export default PostCard;
+export default PostCard
