@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.0.0...v1.1.0) (2023-03-23)
+
+
+### Features
+
+* add standard style workflow ([#29](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/29)) ([2db6832](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/2db683220453e46763a9268163e97f6f82ab6f09))
+
 # 1.0.0 (2023-03-23)
 
 
