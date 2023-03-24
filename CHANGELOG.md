@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.1.0...v1.1.1) (2023-03-24)
+
+
+### Bug Fixes
+
+* update dependabot ([94d17d9](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/94d17d91be73be5028533e4244d3f288ce45599e))
+
 # [1.1.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.0.0...v1.1.0) (2023-03-23)
 
 
