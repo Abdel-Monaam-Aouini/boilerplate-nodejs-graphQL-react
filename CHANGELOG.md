@@ -1,3 +1,21 @@
+# [1.2.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.1.1...v1.2.0) (2023-04-21)
+
+
+### Features
+
+* bump @apollo/client from 3.7.11 to 3.7.12 in /client ([91a7f37](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/91a7f371c056f8744476712b636948d25133e2ce))
+* bump @apollo/client from 3.7.9 to 3.7.11 in /client ([3b83ecb](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/3b83ecb8abb52cf0337e0ab13b0fec4d7efcde8d))
+* bump @vitejs/plugin-react from 3.1.0 to 4.0.0 in /client ([#42](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/42)) ([7e8a1ec](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/7e8a1ece23fbed6d249bb71ff84411c1f18de946))
+* bump mongoose from 7.0.3 to 7.0.4 in /server ([49ce410](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/49ce410f127e07f25b4dce79850f7cf195a25a0c))
+* bump react-router-dom from 6.8.2 to 6.10.0 in /client ([ed48833](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/ed48833c36d6605b0d37032a9e6483566897b15b))
+* bump sass from 1.60.0 to 1.61.0 in /client ([5f07e93](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/5f07e93f406ec70273884a7cdc189bc6101987a1))
+* bump sass from 1.61.0 to 1.62.0 in /client ([193772d](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/193772da260927ecf7a92331aac008ef6f56329d))
+* bump vite from 4.2.1 to 4.2.2 in /client ([20fcb3a](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/20fcb3ad4f9a2ca8769f3fd293a18e0c3de39c42))
+* bump vite from 4.2.2 to 4.3.1 in /client ([faeb867](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/faeb867284cfc9935009c57e7cd8fa6ef534439b))
+* bump vitest from 0.29.7 to 0.29.8 in /client ([a69dbf5](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/a69dbf5769220fee4c8ed396ff41311b788668c5))
+* bump vitest from 0.29.8 to 0.30.0 in /client ([b1d0a0b](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/b1d0a0ba35f79508f658e7775518412f37bcaf50))
+* bump vitest from 0.30.0 to 0.30.1 in /client ([1255edb](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/1255edb2e62a8679018a03974ee73be4b2b1973e))
+
 ## [1.1.1](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.1.0...v1.1.1) (2023-03-24)
 
 
