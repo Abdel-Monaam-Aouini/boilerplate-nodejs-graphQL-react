@@ -1,3 +1,19 @@
+# [1.3.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.2.0...v1.3.0) (2023-04-28)
+
+
+### Bug Fixes
+
+* Update ReadME ([7ae88ed](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/7ae88ed69fcafef6978831a78113a1c4370ddeaa))
+
+
+### Features
+
+* bump @apollo/client from 3.7.12 to 3.7.13 in /client ([2cec325](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/2cec325fc4a5dfb058873807a5784ccf9ecd7218))
+* bump mongoose from 7.0.4 to 7.0.5 in /server ([3c31d4a](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/3c31d4a80e0b9fdccf4c245a9cfec2e5e8b9fd28))
+* bump mongoose from 7.0.5 to 7.1.0 in /server ([a5b7131](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/a5b713193bb23588945c423c01023e6073759868))
+* bump sass from 1.62.0 to 1.62.1 in /client ([776e849](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/776e849ac3fb4bb164c6b3c1b72124b280c4796e))
+* bump vite from 4.3.1 to 4.3.3 in /client ([f1f789a](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/f1f789a42b7adb944b528b4f66c14776932522de))
+
 # [1.2.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.1.1...v1.2.0) (2023-04-21)
 
 
