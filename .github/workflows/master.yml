@@ -64,7 +64,7 @@ jobs:
     name: Create a tag
     runs-on: ubuntu-latest
     environment: production
-    needs: [test_client, test_server]
+    needs: [test_client, test_server, style]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
