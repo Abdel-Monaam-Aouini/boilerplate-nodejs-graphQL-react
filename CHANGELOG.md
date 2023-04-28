@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.3.0...v1.3.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* update master workflow ([0abfd51](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/0abfd51e380dd779ec82795ccd95f490a7cf3c61))
+
 # [1.3.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.2.0...v1.3.0) (2023-04-28)
 
 
