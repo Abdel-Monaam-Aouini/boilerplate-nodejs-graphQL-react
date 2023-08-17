@@ -29,6 +29,6 @@
     "@vitejs/plugin-react": "4.0.4",
     "sass": "1.65.1",
     "vite": "4.4.9",
-    "vitest": "0.34.1"
+    "vitest": "0.34.2"
   }
 }
