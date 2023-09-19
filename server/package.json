@@ -12,7 +12,7 @@
   "dependencies": {
     "apollo-server": "^3.12.1",
     "bcryptjs": "^2.4.3",
-    "graphql": "^16.8.0",
+    "graphql": "^16.8.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^7.5.2",
     "nodemon": "^3.0.1"
