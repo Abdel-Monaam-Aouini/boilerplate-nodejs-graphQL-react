@@ -1,3 +1,14 @@
+# [1.7.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.6.0...v1.7.0) (2024-01-30)
+
+
+### Features
+
+* bump mongoose from 8.1.0 to 8.1.1 in /server ([86d586a](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/86d586a76f3cd8d43bc8e7894983b10b03031a5d))
+* bump mongoose from 8.1.0 to 8.1.1 in /server ([#227](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/227)) ([db12400](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/db12400810dc8f2fdd52bcf0e1c6bb2122140a86))
+* bump react-router-dom from 6.21.2 to 6.21.3 in /client ([#225](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/225)) ([34aa27a](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/34aa27a2ffd99b6475ff87930c29847d75bbfe8a))
+* bump vitest from 1.2.1 to 1.2.2 in /client ([4b42a50](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/4b42a50c285424b7f190b4817b1bc8cb02949b5d))
+* bump vitest from 1.2.1 to 1.2.2 in /client ([#228](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/228)) ([49c61a4](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/49c61a40fc6db079b15be11f8a45977dda83dfbc))
+
 # [1.6.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.5.0...v1.6.0) (2024-01-24)
 
 
