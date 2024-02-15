@@ -1,3 +1,34 @@
+# [1.8.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.7.0...v1.8.0) (2024-02-15)
+
+
+### Bug Fixes
+
+* Update README.md ([f67a175](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/f67a175417fa797c29af2fd6acc012f8634d485a))
+
+
+### Features
+
+* bump @apollo/client from 3.8.10 to 3.9.0 in /client ([b7a25da](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/b7a25da18d89a88f005606088af2349cf61dd9ec))
+* bump @apollo/client from 3.8.10 to 3.9.0 in /client ([#229](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/229)) ([d90bfcb](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/d90bfcb16a0ea700740c8996fc3743801fb0d9d8))
+* bump @apollo/client from 3.9.0 to 3.9.1 in /client ([cdc3127](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/cdc31279ad0685564509876721f5e6ae6938cbde))
+* bump @apollo/client from 3.9.0 to 3.9.1 in /client ([#230](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/230)) ([7be3762](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/7be376245b9a9ee82104c3aad345aa4a949506ef))
+* bump @apollo/client from 3.9.1 to 3.9.2 in /client ([56e2ede](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/56e2edefb1a0b0f3f2d385901368aad70eea4305))
+* bump @apollo/client from 3.9.1 to 3.9.2 in /client ([#231](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/231)) ([85e1d4e](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/85e1d4ee799c212315c2bfda3afe12cec17b7626))
+* bump @apollo/client from 3.9.2 to 3.9.3 in /client ([53e5b13](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/53e5b133ca8514adc821e1eb0e188b82c725aeb6))
+* bump @apollo/client from 3.9.2 to 3.9.3 in /client ([#233](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/233)) ([67117ec](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/67117ecf47ab2e1215fcbe8388c8640a521cd18c))
+* bump @apollo/client from 3.9.3 to 3.9.4 in /client ([8cae941](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/8cae941b83534a66d83ab8a175438979880bfeaf))
+* bump @apollo/client from 3.9.3 to 3.9.4 in /client ([#234](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/234)) ([8eb2d66](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/8eb2d663ea54b35e14d239450e9e3b4d9626a932))
+* bump mongoose from 8.1.1 to 8.1.2 in /server ([2cad578](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/2cad5787a36e145bbc57b4a6359f0b63cbf00599))
+* bump mongoose from 8.1.1 to 8.1.2 in /server ([#237](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/237)) ([ebd4bba](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/ebd4bba2868ce02c41b1b41a653b24e0c32dc955))
+* bump react-router-dom from 6.21.3 to 6.22.0 in /client ([2ecf79f](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/2ecf79f8c0e0f1922bc1977a5fa08a00a54c9481))
+* bump react-router-dom from 6.21.3 to 6.22.0 in /client ([#232](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/232)) ([d9677b7](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/d9677b7018b8d21e2bb91d44a2d093a6ff8f3da2))
+* bump vite from 5.0.12 to 5.1.0 in /client ([d255415](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/d255415df20bf9019e0a7901503bb2793e280b46))
+* bump vite from 5.0.12 to 5.1.0 in /client ([#235](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/235)) ([401d0e3](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/401d0e3643305961bd3198811aed4de0f82abfc4))
+* bump vite from 5.1.0 to 5.1.1 in /client ([45e5120](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/45e5120d6e4e8df84371f299ee494bf668d1bde4))
+* bump vite from 5.1.0 to 5.1.1 in /client ([#236](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/236)) ([3952592](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/39525924d8dbf0b36c0841cdde3e88cc6493acea))
+* bump vite from 5.1.1 to 5.1.2 in /client ([2c1697b](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/2c1697b0c40f16bde9df42113cc83570719e3a25))
+* bump vite from 5.1.1 to 5.1.2 in /client ([#238](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/238)) ([baf57a8](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/baf57a8b951c52d3607e206f9c9afceed7bcac51))
+
 # [1.7.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.6.0...v1.7.0) (2024-01-30)
 
 
