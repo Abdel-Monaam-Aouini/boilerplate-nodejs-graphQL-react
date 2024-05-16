@@ -27,7 +27,7 @@
   "devDependencies": {
     "process": "^0.11.10",
     "@vitejs/plugin-react": "4.2.1",
-    "sass": "1.77.1",
+    "sass": "1.77.2",
     "vite": "5.2.11",
     "vitest": "1.6.0"
   }
