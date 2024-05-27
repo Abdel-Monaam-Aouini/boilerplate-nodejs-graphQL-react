@@ -15,6 +15,6 @@
     "graphql": "^16.8.1",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.0",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.1"
   }
 }
