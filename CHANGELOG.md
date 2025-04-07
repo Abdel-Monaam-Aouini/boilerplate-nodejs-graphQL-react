@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.10.0...v1.11.0) (2025-04-07)
+
+
+### Features
+
+* bump @apollo/client from 3.11.2 to 3.11.8 in /client ([#370](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/issues/370)) ([645b1d7](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/commit/645b1d7fb44232fafc463bdf42e83eef9e0ed930))
+
 # [1.10.0](https://github.com/Abdel-Monaam-Aouini/boilerplate-nodejs-graphQL-react/compare/v1.9.0...v1.10.0) (2025-04-07)
 
 
