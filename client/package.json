@@ -28,7 +28,7 @@
     "process": "^0.11.10",
     "@vitejs/plugin-react": "4.7.0",
     "sass": "1.94.2",
-    "vite": "7.2.2",
+    "vite": "7.2.6",
     "vitest": "3.2.4"
   }
 }
